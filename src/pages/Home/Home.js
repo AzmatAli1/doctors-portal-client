@@ -6,13 +6,13 @@ import HeroExceptions from './HeroExceptions';
 import MakeAppointment from './MakeAppointment';
 import Testimonials from './Testimonials';
 import ContuctUs from './ContuctUs';
-import Footer from './Footer';
+import Footer from '../Shared/Footer';
 
 
 
 const Home = () => {
     return (
-        <div className='px-12'>
+        <div >
             <Banner></Banner>
             <Info></Info>
             <Services></Services>
